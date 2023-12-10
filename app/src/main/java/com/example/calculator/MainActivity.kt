@@ -56,6 +56,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun calculator()
 {
+    /////////////////sadf
     var firstNum by remember { mutableStateOf("") }
     var secondNum by remember{ mutableStateOf("") }
     var action by remember{ mutableStateOf("") }
